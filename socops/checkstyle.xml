@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Checkstyle//DTD Checkstyle Configuration 1.1//EN"
+    "https://checkstyle.org/dtds/configuration_1_1.dtd">
+
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="UnusedImports"/>
+        <module name="NoWhitespaceBefore"/>
+        <module name="WhitespaceAround">
+            <property name="allowEmptyConstructors" value="true"/>
+            <property name="allowEmptyMethods" value="true"/>
+            <property name="allowEmptyTypes" value="true"/>
+            <property name="allowEmptyLoops" value="true"/>
+            <property name="ignoreEnhancedForColon" value="true"/>
+        </module>
+        <module name="NeedBraces"/>
+    </module>
+</module>
